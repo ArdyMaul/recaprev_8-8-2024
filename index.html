@@ -3,38 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>revou</title>
     <style>
-        table, th ,td {
-            border: 1px solid black
+        h2 {
+            background-color: aqua;
+            border: 5px solid black;
+            padding: 6px;
         }
     </style>
+    <link rel="stylesheet" href="css\styles.css">
 </head>
 <body>
-    <h1>test aja si<sup>2</sup></h1>
-    <h3>mobil wishlist</h3>
-    <ol type="a">
-        <li>ferari</li>
-        <li>porsche</li>
-        <li>r34</li>
-    </ol>
-    <table>
-        <tr>
-            <th colspan="3">car company</th>
-        </tr>
-        <tr>
-            <th>company</th>
-            <th>contact</th>
-            <th>country</th>
-        </tr>
-        <tr>
-            <td>ferari</td>
-            <td>vander berg</td>
-            <td>italy</td>
-        </tr>
-    </table>
-    <a href="https://www.ferrari.com/en-ID" target="_blank">ferari</a>
-    <br>
+    <header>
+        <h2>judulnya kiri</h2>
+        <h2>judulnya kanan</h2>
+    </header>
+
+    <article>
+        <!-- ini inline -->
+        <p style="color: red">ini kontennya</p> 
+
+        <header>
+        <!-- ini style di file css -->
+            <h3>judulnya lagi</h3>
+        </header>
+
+        <!-- saklar -->
+        <button onclick="lampu()">saklar ceritanya</button>
+    </article>
+
+    <script>
+        function lampu() {
+            alert('menyala lampuku')
+        }
+    </script>
 
 </body>
 </html>

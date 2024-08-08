@@ -1,0 +1,9 @@
+h3 {
+    background-color: aqua;
+    border: 5px solid black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
